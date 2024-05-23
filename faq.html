@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQs</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<style>
+		* {
+		margin:0;
+        padding: 0;
+        box-sizing: border-box;
+		}
+
+		header {
+        background:green;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background: green;
+        }
+
+        ul {
+            float: right;
+            list-style-type: none;
+            margin-top: 35px;
+
+         }
+
+	    ul li{
+	        display: inline-block;
+
+	     }
+
+	    ul li a{
+	        text-decoration: none;
+	        color: white;
+	        padding: 15px 20px;
+	        border:1px solid transparent;
+	        transition: 0.4s ease;
+	        letter-spacing: 0.1rem;
+	      }
+
+	    ul li a:hover {
+	        color: black;
+	        background: var(--clr);
+	        letter-spacing: 0.25rem;
+	        box-shadow: 0 0 35px var(--clr);
+	        border-radius: 20px; 
+	    }
+
+	    ul li a.active {
+	    	color: black;
+	        background: var(--clr);
+	        letter-spacing: 0.25rem;
+	        box-shadow: 0 0 35px var(--clr);
+	        border-radius: 20px; 
+	    }
+
+	    .logoo {
+		    height: 150px;
+		    margin: 5px;
+		    padding-left: 10px;
+		    bottom: 10%;
+		    left: 10%;
+    
+        }
+
+        .container {
+		    max-width: 800px;
+		    margin: 0 auto;
+		    padding: 20px;
+       }
+
+		.accordion-header {
+		    background-color: #f5f5f5;
+		    padding: 10px 15px;
+		    cursor: pointer;
+		    display: block;
+		    margin-bottom: 1px;
+		}
+
+		.accordion-content {
+		    padding: 10px 15px;
+		    display: none;
+		}
+
+		.accordion-header:hover {
+		    background-color: #e0e0e0;
+		}
+
+		input[type="checkbox"] {
+		    display: none;
+		}
+
+		input[type="checkbox"]:checked + .accordion-header + .accordion-content {
+		    display: block;
+		}
+
+		body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+details {
+    border-bottom: 1px solid #ccc;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+summary:hover {
+    background-color: #eaeaea;
+}
+
+p {
+    padding: 10px;
+}
+
+  .footer {
+    background-color: #008080;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+
+  .img1{
+    float: center;
+    height: 150px;
+  
+  }
+
+  </style>
+
+</head>
+<body>
+<header>
+<img class="logoo" src="logo.png">
+<ul>
+	<li><a href="index.html" style="--clr:white">Home</a></li>
+	<li><a href="about.html" style="--clr:white">About Us</a></li>
+	<li><a href="guide.html" style="--clr:white">Guide</a></li>
+	<li><a href="gt.html" style="--clr:white">Get Involved</a></li>
+	<li><a class = "active" href="#" style="--clr:white">FAQs</a></li>
+	<li><a href="contact.html" style="--clr:white">Contact Us</a></li>
+</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq">
+            <details>
+                <summary>What is e-waste?</summary>
+                <p>E-waste refers to discarded electronic devices, including computers, smartphones, and appliances, that have reached the end of their useful life.</p>
+            </details>
+            <details>
+                <summary>Why is e-waste management important?</summary>
+                <p>Effective e-waste management prevents environmental pollution and health hazards caused by improper disposal of electronic devices.</p>
+            </details>
+            <details>
+                <summary>How can I dispose of e-waste responsibly?</summary>
+                <p>You can dispose of e-waste responsibly by recycling it through certified e-waste recycling facilities or donation programs.</p>
+            </details>
+            <details>
+                <summary>What are the environmental impacts of improper e-waste disposal?</summary>
+                <p>Improper e-waste disposal can lead to soil and water contamination due to toxic substances like lead, mercury, and cadmium leaching from electronic devices.</p>
+            </details>
+            <details>
+                <summary>Can e-waste be recycled?</summary>
+                <p>Yes, e-waste can be recycled to recover valuable materials like metals, plastics, and glass for reuse in manufacturing new products.</p>
+            </details>
+            <details>
+                <summary>What are the benefits of e-waste recycling?</summary>
+                <p>E-waste recycling conserves natural resources, reduces energy consumption, and minimizes greenhouse gas emissions compared to producing new materials.</p>
+            </details>
+            <details>
+                <summary>What should I do before recycling my electronic devices?</summary>
+                <p>Before recycling your electronic devices, make sure to erase all personal data and remove any batteries or hazardous materials.</p>
+            </details>
+            <details>
+                <summary>Are there regulations for e-waste management?</summary>
+                <p>Yes, many countries have regulations in place to govern the proper handling, disposal, and recycling of electronic waste to mitigate its environmental impact.</p>
+            </details>
+            <details>
+                <summary>What is extended producer responsibility (EPR) in e-waste management?</summary>
+                <p>Extended producer responsibility requires manufacturers to take responsibility for the end-of-life disposal of their products, encouraging them to design more environmentally friendly and easily recyclable devices.</p>
+            </details>
+            <details>
+                <summary>Can damaged or non-functional electronics still be recycled?</summary>
+                <p>Yes, damaged or non-functional electronics can still be recycled. Certified e-waste recyclers can safely dismantle and recover valuable materials from these devices.</p>
+            </details>
+            <details>
+                <summary>How can I reduce e-waste generation?</summary>
+                <p>You can reduce e-waste generation by extending the lifespan of your electronic devices through proper maintenance, repair, and upgrades, as well as by choosing durable and sustainable products.</p>
+            </details>
+            <details>
+                <summary>Where can I find e-waste recycling centers near me?</summary>
+                <p>You can find e-waste recycling centers near you by searching online directories, contacting local waste management authorities, or visiting electronics retailers that offer recycling programs.</p>
+            </details>
+        </div>
+    </div>
+</header>
+<div class="footer">
+  <p>&copy; 2024 TechWaste Solutions. All rights reserved.</p>
+  <p>Contact: Techwaste@email.com</p>
+  <p>Phone: +123456789</p>
+  <p>Follow us on <a href="#"><i class="fa-brands fa-twitter"></i></a>, <a href="#"><i class="fa-brands fa-facebook"></i></a>, and <a href="#"><i class="fa-brands fa-instagram"></i></a></p>
+  <img class="img1" src="logo.png">
+</div>
+</body>
+</html>
